@@ -1,1 +1,2 @@
-message: "&cYou do not have permission to use this!"
+# Send this message to the player if they cannot use the command.
+noPermMessage: "&cYou do not have permission to use this!"
