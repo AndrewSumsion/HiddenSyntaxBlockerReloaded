@@ -22,7 +22,7 @@ public class HiddenSyntaxBlockerReloaded extends JavaPlugin implements Listener 
         String namespace = command.split("\\:")[0];
         if(event.getPlayer().hasPermission("hiddensyntaxblocker.allow."+namespace)
                 || event.getPlayer().hasPermission("hiddensyntaxblocker.allow.all")) return;
-        event.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("message")));
+        event.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("noPermMessage")));
         event.setCancelled(true);
     }
 }
