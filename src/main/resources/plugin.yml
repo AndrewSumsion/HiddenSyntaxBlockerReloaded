@@ -1,0 +1,11 @@
+name: HiddenSyntaxBlockerReloaded
+version: 1.0-SNAPSHOT
+main: me.El_Chupe.hiddensyntaxblocker.HiddenSyntaxBlockerReloaded
+author: El_Chupe
+permissions:
+  hiddensyntaxblocker.allow.all:
+    description: Complete bypass of the syntax blocker
+    default: op
+  hiddensyntaxblocker.allow.*:
+    description: A dynamic permission to allow usage of a specific namespace
+    default: false
